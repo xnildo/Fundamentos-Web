@@ -6,7 +6,7 @@
 
 body{
     margin: 0;
-    background-color: rgba(0, 0, 0, 0.925);
+    background-color: rgba(41, 39, 39, 0.925);
 }
 
 main{
@@ -15,8 +15,9 @@ main{
     
 }
 
+
 header{   
-    background-color: black;
+    background-color: rgba(29, 33, 41, 0.925);
     height: 55px;
     padding-bottom: 35px;
     margin: none;
@@ -52,13 +53,11 @@ header{
 }
  
 
-.endereco{
-    margin-top: 50px;
-}
+
 .endereco iframe{
-   
-    width: 450px; 
-    height: 250px;
+    margin-top: 30px;
+    width: 30%; 
+    height: 200px;
     
 }
 .video{
@@ -76,17 +75,19 @@ header{
 }
 
 footer{
-     
-    margin: 30px;
-    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 30px;   
 }
+
 
 
 .icones{
     width: 50px;
     height:50px;
     padding-right:30px;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 /* Estilos da contato.html */
@@ -113,22 +114,44 @@ footer{
     font-size: 125%;
     color: rgba(119, 0, 255, 0.534);
 }
-
-input{
-   
-    border-radius: 10px;
-    color: black;
-}
-
-button{
-    width: 100PX;
+form input{
+    width: 300px;
     height: 25px;
     border-radius: 10px;
     color: black;
+    font-size: 20px;
+    margin: 10px;
 }
 
-textarea{
+form label{
+    
+    font-size: 20px;
+}
+
+form textarea{
+    width: 30%;;
+    font-size: 20px;
     border-radius: 20px;
     color: black;
     height: 200px;
+    margin: 10px;
+    
 }
+
+
+
+button{
+    font-size: 20px;
+    width: 150PX;
+    height: 40px;
+    border-radius: 10px;
+    color: blanchedalmond;
+    background-color:rgba(29, 33, 41, 0.925);
+    
+}
+
+#frameContato{
+    margin-bottom: 30px;
+    border-radius: 5%;
+}
+
